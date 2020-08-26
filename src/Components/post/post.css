@@ -1,0 +1,22 @@
+.post_container {
+  padding-left: 50px;
+}
+
+.circle-container {
+  border-radius: 50%;
+  background-color: red;
+  z-index: 9;
+  height: 85px;
+  width: 85px;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.post {
+  min-height: 150px;
+  padding: 10px;
+  padding-left: 50px;
+  border-radius: 15px;
+  background-color: #919191;
+}

@@ -1,3 +1,5 @@
 .list {
   padding: 15px;
+  overflow-y: scroll;
+  height: 93.5vh;
 }

@@ -6,6 +6,9 @@ function PostList() {
   return (
     <div className="list">
       <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 }

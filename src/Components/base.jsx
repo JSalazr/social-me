@@ -3,28 +3,25 @@ import { Container, Row, Col } from "react-bootstrap";
 import AppNavbar from "./navbar";
 import PostList from "./postList";
 import LeftPanel from "./left-panel";
-import "./base.css";
+import "./base.scss";
 
 function Base() {
   return (
     <div className="bg">
       <AppNavbar />
       <Container fluid={true}>
-        <Row className="content panel-row">
-          <Col m={3} xl={3} className="allow-pointers">
+        <Row className="content">
+          <Col md={3} xl={3} className="panel-menu">
             <LeftPanel />
           </Col>
-          <Col xs={3} md={6} xl={6} className="center-panel">
+          <Row className="content-row" noGutters>
+            <Col md={{ span: 6, offset: 3 }} xl={{ span: 6, offset: 3 }} className="center-panel">
+              <PostList />
+            </Col>
+          </Row>
+          <Col md={{ span: 3, offset: 9 }} xl={{ span: 3, offset: 9 }} className="panel-menu right">
+            <LeftPanel />
           </Col>
-          <Col m={3} xl={3}>Right Content</Col>
-        </Row>
-        <Row className="content content-row">
-          <Col m={3} xl={3}>
-          </Col>
-          <Col xs={3} md={6} xl={6} className="center-panel">
-            <PostList />
-          </Col>
-          <Col m={3} xl={3}></Col>
         </Row>
       </Container>
     </div>

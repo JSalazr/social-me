@@ -5,6 +5,8 @@
 
 .content {
     transform: translate3d(0, 54px, 0);
+    overflow: hidden;
+    width: 100vw;
 }
 
 .card-base {
@@ -16,26 +18,22 @@
     font-size: 1em;
 }
 
-.left-panel {
-    position:fixed;
-}
-
-.allow-pointer {
-    pointer-events: all;
-}
-
 .center-panel {
     height: 94vh;
 }
 
-.panel-row {
-    position: absolute;
+.panel-menu {
+    position: absolute !important;
     z-index: 9;
     top: 0px;
-    width: 99vw;
-    pointer-events: none;
+
+    &.right {
+        padding-left: 0px !important;
+        padding-right: 30px !important;
+    }
 }
 
 .content-row {
     overflow-y: scroll;
+    padding-left: 15px;
 }

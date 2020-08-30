@@ -40,4 +40,10 @@
 .bg {
   background-color: #222222;
   height: 100vh;
+  overflow-y: scroll;
 }
+
+.content {
+  transform: translate3d(0, 56px, 0);
+}
+

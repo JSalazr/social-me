@@ -4,7 +4,7 @@ import "./post.css";
 function Post() {
   return (
     <div className="post_container">
-      <div className="post">
+      <div className="card-base post">
         <h1 className="post-user">John Doe</h1>
         <p className="post-timestamp">5 min. ago</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

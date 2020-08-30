@@ -18,11 +18,6 @@
 .post {
   min-height: 150px;
   padding: 15px 35px; 
-  border-radius: 15px;
-  background-color: #444444;
-  color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
 }
 
 .post-user {

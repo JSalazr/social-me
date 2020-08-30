@@ -1,0 +1,41 @@
+.bg {
+    background-color: #222222;
+    height: 100vh;
+  }
+
+.content {
+    transform: translate3d(0, 54px, 0);
+}
+
+.card-base {
+    padding: 15px 35px; 
+    border-radius: 15px;
+    background-color: #444444;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.left-panel {
+    position:fixed;
+}
+
+.allow-pointer {
+    pointer-events: all;
+}
+
+.center-panel {
+    height: 94vh;
+}
+
+.panel-row {
+    position: absolute;
+    z-index: 9;
+    top: 0px;
+    width: 99vw;
+    pointer-events: none;
+}
+
+.content-row {
+    overflow-y: scroll;
+}

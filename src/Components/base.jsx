@@ -7,7 +7,7 @@ function Base() {
   return (
     <div className="bg">
       <AppNavbar />
-      <Container>
+      <Container className="content">
         <Row>
           <Col size={2}>Left Content</Col>
           <Col xs={3} m={7} xl={7}>

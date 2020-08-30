@@ -1,5 +1,7 @@
 .post_container {
   padding-left: 50px;
+  position: relative;
+  margin: 35px 0px;
 }
 
 .circle-container {
@@ -9,14 +11,41 @@
   height: 85px;
   width: 85px;
   position: absolute;
-  top: 15px;
-  left: 25px;
+  top: 0px;
+  left: -15px;
 }
 
 .post {
   min-height: 150px;
-  padding: 10px;
-  padding-left: 50px;
+  padding: 15px 35px; 
   border-radius: 15px;
-  background-color: #919191;
+  background-color: #444444;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.post-user {
+  padding-top: 2px;
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.post-timestamp {
+  font-size: 0.75em;
+  color: #dddddd;
+}
+
+.like-circle-container {
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: blue;
+  z-index: 9;
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+
+.stats {
+  margin-right: 5px;
 }
